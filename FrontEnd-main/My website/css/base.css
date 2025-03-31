@@ -1,0 +1,58 @@
+/* base.css */
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #87CEEB, #E0F6FF);
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2A5298;
+}
+
+/* Shared Buttons */
+.btn-primary {
+    background: #2A5298;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #1A3657;
+}
+
+.btn-secondary {
+    background: #1A3657;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background: #1A3657;
+}

@@ -1,0 +1,99 @@
+/* login.css */
+/* Auth Container */
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.auth-form h2{
+    color: black;
+
+}
+
+.auth-form p{
+    color: black;
+}
+
+.home-btn {
+    background: #2A5298;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.home-btn:hover {
+    background: #1A3657;
+}
+
+.auth-form {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    color: #2A5298;
+    margin-bottom: 0.5rem;
+    font-weight: 1000;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #2A5298;
+    outline: none;
+}
+
+.auth-btn {
+    background: #2A5298;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.auth-btn:hover {
+    background: #1A3657;
+}
+
+/* Auth Link (Same as Login) */
+.auth-link {
+    margin-top: 1.5rem;
+    color: #666;
+}
+
+.auth-link a {
+    color: #2A5298;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}

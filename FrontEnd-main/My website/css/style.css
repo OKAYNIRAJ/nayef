@@ -1,0 +1,114 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Sky Blue Background */
+body {
+    background: linear-gradient(180deg, #87CEEB, #E0F6FF);
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2A5298;
+    font-weight: bold;
+}
+
+.login-btn {
+    background: #2A5298;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #2A5298;
+}
+
+.get-started-btn {
+    background: #1A3657;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+}
+
+/* Scroll Sections */
+.scroll-section {
+    padding: 6rem 2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Our Team */
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Anxiety Quotes */
+.quotes-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.quote-box {
+    background: #fff;
+    padding: 20px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 10px;
+}

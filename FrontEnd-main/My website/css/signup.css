@@ -1,0 +1,113 @@
+/* Centered Signup Container */
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(180deg, #87CEEB, #E0F6FF);
+}
+
+/* Signup Form */
+.auth-form {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Two-Column Layout */
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 1rem;
+}
+
+/* Make full width for single-column fields */
+.full-width {
+    grid-column: span 2;
+}
+
+/* Form Group Styling */
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    color: #2A5298;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus, 
+.form-group select:focus {
+    border-color: #2A5298;
+    outline: none;
+}
+
+/* Signup Button */
+.auth-btn {
+    background: #2A5298;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.auth-btn:hover {
+    background: #1A3657;
+}
+
+/* Login Link */
+.auth-link {
+    margin-top: 1.5rem;
+    color: #666;
+}
+
+.auth-link a {
+    color: #2A5298;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}
+.home-btn {
+    background: #2A5298; /* Blue color */
+    color: white;
+    padding: 0.6rem 1.8rem; /* Adjusted padding for better proportions */
+    border-radius: 30px; /* Fully rounded button */
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.home-btn:hover {
+    background: #1A3657; /* Darker shade on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow */
+    transform: translateY(-2px); /* Lifting effect */
+}
